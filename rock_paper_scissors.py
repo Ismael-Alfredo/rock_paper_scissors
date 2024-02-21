@@ -63,3 +63,9 @@ while player_choice == 1:
             print("player win:",player_win)
     else:
         print("Tha's not a valid play. Check your spelling!")
+
+    ch = input("Do you want to continue(y/n)")
+    if ch=="y":
+        player_choice=1
+    else:
+        break
